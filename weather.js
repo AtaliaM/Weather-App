@@ -34,7 +34,6 @@ async function fetchWeatherInfo(lat = 0, lon = 0, location = "") {
   locationexistsError.style.display = "none";
   try {
     if (location && searchedWeatherArr.includes(location)===false) { //if searching by location
-
       response = await fetch(`${weatherEndpoint}?q=${location}&appid=52442a7c70c3b738415205c974a5a4bc&units=metric`);
       data = await response.json();
       const currLocationInfo = [data.name,data.main.temp];

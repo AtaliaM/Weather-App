@@ -18,10 +18,11 @@ body {
     align-items: center;
     justify-content: center;
     height: 330px;
-    width: 230px;
-    margin: 30px;
+    width: 260px;
+    margin: 5px 30px;
     padding: 10px;
     border: 2px solid black;
+    border-radius: 25px;
     background: cornsilk;
 }
 
@@ -53,12 +54,13 @@ input {
 
 .card-container {
     height: 100px;
-    width: 230px;
+    width: 260px;
     background: cornsilk;
-    margin: 30px;
+    margin: 5px 30px;
     padding: 10px;
     text-align: center;
     border: 2px solid black;
+    border-radius: 25px;
 }
 
 .location-exists {
